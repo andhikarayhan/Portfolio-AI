@@ -1,0 +1,23 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+  },
+  {"tag": "plot_chart",
+    "patterns": ["I want you to plot a stock price", "Please plot a chart", "Plot a stock", "", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Plotting chart"]
+  },
+  {"tag": "add_portfolio",
+    "patterns": ["Add a stock to my portfolio", "Add a stock", "Add a stock to my list", "Add stock"],
+    "responses": ["Adding Stock"]
+  },
+  {"tag": "remove_portfolio",
+    "patterns": ["Remove a stock from my portfolio", "Remove a stock", "I sold a stock"],
+    "responses": ["Removing Stock"]
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"]
+  }
+]
+}
