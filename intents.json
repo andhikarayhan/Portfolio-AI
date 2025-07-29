@@ -15,9 +15,29 @@
     "patterns": ["Remove a stock from my portfolio", "Remove a stock", "I sold a stock"],
     "responses": ["Removing Stock"]
   },
+  {"tag": "show_portfolio",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"]
+  },
+  {"tag": "stock_price",
+    "patterns": ["I want to know the price of a stock", "Show me the price of a stock", "get price","get price of a stock"],
+    "responses": ["Here you go"]
+  },
+  {"tag": "portfolio_worth",
+    "patterns": ["How much is my portfolio worth", "What is the value of my portfolio", "How much are my portfolio?","portfolio value"],
+    "responses": ["Portfolio worth"]
+  },
   {"tag": "stocks",
     "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
     "responses": ["Here are your stocks!"]
+  },
+  {"tag": "portfolio_gains",
+    "patterns": ["How is my portfolio performing?", "How are my gains?", "Did i make any gains?","What is my portfolio's performance?"],
+    "responses": ["Portfolio gains"]
+  },
+  {"tag": "bye",
+    "patterns": ["bye", "goodbye", "stop", "end"],
+    "responses": ["Goodbye"]
   }
 ]
 }
